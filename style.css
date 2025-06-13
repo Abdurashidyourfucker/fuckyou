@@ -28,4 +28,12 @@ h6 {
     font-size: 72px;
     font-family: sans-serif;
     color: red;
+    gap: 15px;
+}
+
+
+@media screen and (min-width: 430px) {
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
 }
